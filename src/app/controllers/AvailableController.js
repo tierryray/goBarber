@@ -8,7 +8,6 @@ import {
   isAfter,
 } from 'date-fns';
 import { Op } from 'sequelize';
-import { formatWithOptions } from 'util';
 import Appointment from '../models/Appointment';
 
 class AvailableController {
